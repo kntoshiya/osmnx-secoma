@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "osmnx-secoma"
+version = "0.1.0"
+description = ""
+authors = ["Toshiya Kunou <kunou@mierune.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+osmnx = "^1.9.3"
+networkx = "^3.3"
+ipykernel = "^6.29.4"
+geopandas = "^0.14.4"
+shapely = "^2.0.4"
+scikit-learn = "^1.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
